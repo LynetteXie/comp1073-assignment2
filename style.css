@@ -1,0 +1,120 @@
+body {
+	background-color: #fff;
+	background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+}
+
+.container {
+	font-family: 'Montserrat', sans-serif;
+    background-color: #F9BF3B;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 6px 6px #ECF0F1;
+}
+
+h3 {
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	padding-left: 60px;
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#message {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
+	color: #fff;
+}
+
+#score {
+	font-family: 'Montserrat', sans-serif;
+	background: #f1ff92;
+	border-radius: 5px;
+  	color: #888e5f;
+  	padding: 11px;
+  	position: absolute;
+  	left: 500px;
+  	box-shadow: 0px 2px #9da853;
+  	margin-top: 10px;
+}
+
+#cal {
+	font-family: 'Montserrat', sans-serif;
+    background-color: #ECF0F1;
+    width: 345px;
+    height: 75px;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #808080;
+    border-radius: 5px;
+}
+
+#calInput {
+    border: 2px dashed #7f8c8d;
+    width: 80px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 36px;
+    color: #7f8c8d;
+    margin-right: -375px;
+    margin-top: 20px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+    padding : 5px 0;
+    width: 401px;
+    border-radius: 5px;
+    margin-right: 35px;
+    margin-top: 60px;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+}
+
+.btn:hover {
+    /* top: -2px; */
+    top: 6px;
+}
+
+#submit {
+	background: #2ca5d4;
+	border-color: #2ca5d4;
+	box-shadow: 0 6px #2980b9;
+}
+
+#submit:hover {
+	box-shadow: 0 8px #2980b9;
+    top: 6px;
+}
+
+#skip {
+	margin-top: 15px;
+	background: #cb4e4e;
+	border-color: #cb4e4e;
+	box-shadow: 0 6px #ab3c3c;
+}
+
+#skip:hover {
+	box-shadow: 0 6px #ab3c3c;
+	top: 6px;
+}
