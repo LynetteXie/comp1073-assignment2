@@ -14,7 +14,7 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
     background-color: #F9BF3B;
     width: 600px;
-    height: 400px;
+    height: 450px;
     margin: 20px auto;
     position: relative;
     border-radius: 10px;
@@ -50,20 +50,40 @@ h3 {
   	margin-top: 10px;
 }
 
-#cal {
-	font-family: 'Montserrat', sans-serif;
+#num1{
+    font-family: 'Montserrat', sans-serif;
     background-color: #ECF0F1;
-    width: 345px;
+    float: left;
+    width: 33.33%;
     height: 75px;
     padding: 10px;
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    margin-left: -225px;
-    margin-top: 50px;
     font-size: 40px;
     color: #808080;
-    border-radius: 5px;
+    
+}
+
+#num2{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ECF0F1;
+    float: left;
+    width: 33.33%;
+    height: 75px;
+    padding: 10px;
+    font-size: 40px;
+    color: #808080;
+    
+}
+
+#operator {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ECF0F1;
+    float: left;
+    width: 33.33%;
+    height: 75px;
+    padding: 10px;
+    font-size: 40px;
+    color: #808080;
+    
 }
 
 #calInput {
@@ -74,8 +94,7 @@ h3 {
     text-align: center;
     font-size: 36px;
     color: #7f8c8d;
-    margin-right: -375px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .btn {
@@ -84,7 +103,7 @@ h3 {
     width: 401px;
     border-radius: 5px;
     margin-right: 35px;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 17px;
     color: #fff;
     text-transform: uppercase;
@@ -107,7 +126,7 @@ h3 {
     top: 6px;
 }
 
-#skip {
+#skip, #reset {
 	margin-top: 15px;
 	background: #cb4e4e;
 	border-color: #cb4e4e;
