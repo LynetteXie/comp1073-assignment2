@@ -41,7 +41,7 @@ game.prototype.generateEquation = function() {
 	number1 = Number(num1.textContent);
 	number2 = Number(num2.textContent);
 
-	// userStorage.setItem('user', JSON.stringify(obj));
+	game.prototype.saveLocalStorage();
 }
 
 window.onload = function() {
@@ -136,6 +136,8 @@ game.prototype.evaluateEquation = function() {
 		answer = game.prototype.divide();
 		console.log("divide is TRIGGERED");
 	}
+
+	game.prototype.saveLocalStorage();
 }
 
 // 8) & 9) A prototype method that executes when the user wins or loses a question
@@ -156,15 +158,18 @@ game.prototype.winOrLose = function() {
 		message.textContent = "Try again!";
 	}
 	console.log("winOrLose is TRIGGERED");
+	game.prototype.saveLocalStorage();
 }
 
 // 11) Store the user's current equation, score, and answer to the user's sesson in local storage
-var userStorage = window.localStorage;
+game.prototype.saveLocalStorage = function() {
+	var userStorage = window.localStorage;
 	// user's value structure
-var obj = {
-  equation: number1 + operator + number2,
-  score: score.value,
-  answer: userAnswer.value
-};
+	var obj = {
+		equation: number1 + operator.textContent + number2,
+		score: score.value,
+		answer: userAnswer.value
+	};
 
-userStorage.setItem('user', JSON.stringify(obj));
+	userStorage.setItem('user', JSON.stringify(obj));
+}
